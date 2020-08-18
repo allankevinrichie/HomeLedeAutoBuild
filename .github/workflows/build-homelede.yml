@@ -16,6 +16,7 @@ on:
       - master
     paths:
       - 'defconfig'
+      - '.github/workflows/build-homelede.yml'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
