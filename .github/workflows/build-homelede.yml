@@ -24,7 +24,7 @@ on:
 
 env:
   REPO_URL: https://github.com/xiaoqingfengATGH/HomeLede
-  REPO_BRANCH: master
+  REPO_BRANCH: k5
   CONFIG_FILE: defconfig
   DIY_SH: customize.sh
   SSH_ACTIONS: false
@@ -40,7 +40,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@k5
+      uses: actions/checkout@master
 
     - name: Initialization environment
       env:
